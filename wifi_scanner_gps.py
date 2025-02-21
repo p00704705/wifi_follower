@@ -44,7 +44,7 @@ def scan_networks(interface):
 
 def scan_gps_devices():
     possible_ports = [
-        '/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyS0', '/dev/ttyS1', '/dev/ttyAMA0', '/dev/ttyAMA1'
+        '/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyS0', '/dev/ttyS1', '/dev/ttyAMA0', '/dev/ttyAMA1', '/dev/ttyACM0'
     ]
     available_ports = []
     
